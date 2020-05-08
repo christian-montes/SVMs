@@ -1,26 +1,4 @@
-# L03 SVM
-
-Clone or download the repository as a zip folder and begin an `R` project for this lab. The directory contains instructions (repeated below) and a template to get an `.Rmd` file started.
-
-# Overview
-
-The main goal of this lab is to continue practicing the application of support vector machines (SVMs).
-
-# Dataset 
-
-We have split the `wildfires.csv` dataset into a training dataset (`wildfires_train.csv`) and test dataset (`wildfires_test.csv`). They are contained in the **data** subdirectory along with a codebook. 
-
-# Exercises
-
-Located in the northeast of the wilderness area is a wildlife protection zone. It is home to several rare and endangered species, and thus conservationists and park rangers are very interested in whether a given wildfire is likely to reach it. The following exercises involve fitting models to predict if a wildfire reaches this zone. Please complete the exercises; be sure your solutions are clearly indicated and that the document is neatly formatted.
-
-
 #### Exercise 1
-
-In the following exercise, you will be fitting and tuning several different candidate models. You will then be asked to compare the tuned models. The data furnished to you for this lab are already split into a training and test set. Describe how you will use these two sets of data to tune and compare these candidate models. Will you need to create additional splits? Where will you apply cross-validation (if at all)? **Justify your approach.**
-
-
-#### Exercise 2
 
 Our goal is to predict whether a wildfire will reach the wildlife protection zone, as denoted by the indicator variable `wlf`. Previously we utilized boosting, bagging, and random forests methods to build candidate models. We also benchmarked those methods against a logistic regression model that utilized all predictors. In this lab, you will use a support vector classifier and support vector machines.
 
