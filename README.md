@@ -8,25 +8,4 @@ B. Tune a support vector classifier with a radial kernel to select an optimal `c
 
 C. Tune a support vector classifier with a polynomial kernel to select an optimal `cost`. Use the default value for `degree` and try to determine your own range of values for `cost` to explore. 
 
-D. Calculate the test error for each of the 3 candidate classifiers selected in parts (A) - (C). Which classifier is the best? 
-
-E. Construct a table displaying the test error for these 3 candidate classifiers, the candidate models from L02 CART, and the multiple logistic regression fit in L02 CART.
-<br><br>
-
-
-### Challenge 1 (Not Mandatory)
-
-Use the `ggroc()` function from the `pROC` package to construct ROC curves for the SVM candidate classifiers from above. Do this for each classifier on both the training and testing sets.    
-<br><br>
-
-
-### Challenge 2 (Not Mandatory)
-
-Expand your solution to **Exercise 2(B)** where you fit a radial kernel SVM, and tune your model to find an optimal value of `gamma`. You can either tune `gamma` fixing the `cost` to the optimal value you found in Exercise 2(B). Alternatively, you can jointly tune both `gamma` and `cost`.
-<br><br>
-
-
-### Challenge 3 (Not Mandatory)
-
-Expand your solution to **Exercise 2(C)** where you fit a polynomial kernel SVM, and tune your model to find an optimal value of `degree`. You can either tune `degree` fixing the `cost` to the optimal value you found in Exercise 2(B). Alternatively, you can jointly tune both `degree` and `cost`.
-<br><br>
+D. Calculate the test error for each of the 3 candidate classifiers selected in parts (A) - (C). Which classifier is the best?
